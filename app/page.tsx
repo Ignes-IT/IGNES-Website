@@ -17,7 +17,7 @@ export default function Home() {
   const [plansError, setPlansError] = useState<string | null>(null);
 
   useEffect(() => {
-    const base = process.env.NEXT_PUBLIC_CORE_API_URL || 'http://localhost:3000';
+    const base = process.env.NEXT_PUBLIC_CORE_API_URL ?? 'http://localhost:3000';
     fetch(`${base}/api/plans`)
       .then((r) => {
         if (!r.ok) throw new Error(`HTTP ${r.status}`);
