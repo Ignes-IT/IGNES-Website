@@ -49,7 +49,7 @@ export default function Home() {
           The future of privacy
         </h1>
         <p className="mb-8 max-w-2xl text-lg text-white/70">
-          VPN with AmneziaWG obfuscation. No logs, no borders. One client — every
+          VPN with AmneziaWG obfuscation. No logs, no borders. One client - every
           device.
         </p>
         <a
@@ -97,7 +97,7 @@ export default function Home() {
       <section className="mx-auto max-w-6xl px-6 py-20">
         <h2 className="mb-4 text-center text-3xl font-bold">Pricing</h2>
         <p className="mb-12 text-center text-white/60">
-          Pick a plan — manage everything in the bot.
+          Pick a plan - manage everything in the bot.
         </p>
 
         {plansError && (
